@@ -1,4 +1,4 @@
-### 公式
+# Font Awesome
 
 https://fontawesome.com/
 
@@ -12,3 +12,7 @@ https://qiita.com/riversun/items/4faa56ac40071f638313#2-1%E5%9F%BA%E6%9C%AC%E3%8
 npm i --save @fortawesome/fontawesome-svg-core  
 npm i --save @fortawesome/react-fontawesome  
 npm i --save @fortawesome/free-solid-svg-icons
+
+### 一発でインストール
+
+npm i --save @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
