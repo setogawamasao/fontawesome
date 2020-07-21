@@ -9,8 +9,6 @@ https://qiita.com/riversun/items/4faa56ac40071f638313#2-1%E5%9F%BA%E6%9C%AC%E3%8
 
 ### インストール
 
-npm i --save @fortawesome/react-fontawesome  
 npm i --save @fortawesome/fontawesome-svg-core  
-npm i --save @fortawesome/free-solid-svg-icons  
-npm i --save @fortawesome/free-brands-svg-icons  
-npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/react-fontawesome  
+npm i --save @fortawesome/free-solid-svg-icons

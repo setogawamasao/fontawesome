@@ -1,16 +1,19 @@
 import React from "react";
-import { library } from "@fortawesome/fontawesome-svg-core"; //fontawesomeのコアファイル
-import { fab } from "@fortawesome/free-brands-svg-icons"; //fontawesomeのbrandアイコンのインポート
-import { fas } from "@fortawesome/free-solid-svg-icons"; //fontawesomeのsolidアイコンのインポート
-import { far } from "@fortawesome/free-regular-svg-icons"; //fontawesomeのregularアイコンのインポート
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHippo, faCat, faHorse } from "@fortawesome/free-solid-svg-icons";
 
 const App = () => {
-  library.add(fab, fas, far); //他のコンポーネントから簡単に呼び出せるようにするための登録処理？
   return (
     <>
-      <FontAwesomeIcon icon={["fas", "minus-circle"]} />
-      <FontAwesomeIcon icon={["fab", "github"]} />
+      <FontAwesomeIcon icon={faHippo} />
+      <FontAwesomeIcon icon={faCat} />
+      <FontAwesomeIcon icon={faHorse} />
+      {/* size : "xs","lg","sm","1x","2x","3x","4x","5x","6x","7x","8x","9x","10x" */}
+      <FontAwesomeIcon icon={faHorse} size={"4x"} />
+      {/* flip : "horizontal" , "vertical" , "both" */}
+      <FontAwesomeIcon icon={faHorse} flip={"horizontal"} />
+      {/* pull : "left" , "right" */}
+      <FontAwesomeIcon icon={faHorse} pull={"right"} />
     </>
   );
 };
